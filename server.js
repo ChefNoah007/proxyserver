@@ -8,7 +8,7 @@ const { Session } = require('@shopify/shopify-api');
 const { restResources } = require("@shopify/shopify-api/rest/admin/2024-01");
 const { NodeAdapter } = require('@shopify/shopify-api/adapters/node');
 const { PrismaSessionStorage } = require("@shopify/shopify-app-session-storage-prisma");
-const prisma = require('../app/db.server.cjs');
+const prisma = require('.db.server.cjs');
 
 const app = express();
 const PORT = 5001;
